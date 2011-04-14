@@ -1,0 +1,13 @@
+#modal-overlay {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+
+#modal-container {
+  background-color: #ccc;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+}

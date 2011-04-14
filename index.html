@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+  <link rel="stylesheet" href="modal.css" type="text/css" media="screen" charset="utf-8" />
+  <script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+  <script type="text/javascript" charset="utf-8" src="jquery.modal.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(function() {
+      $("a#load-http").click(function(e) {
+        e.preventDefault();
+        $.modal("http://cnn.com", { width: 800, height: 600 });
+      });
+    });
+  </script>
+</head>
+<body>
+  <a href="#" id="load-http">Load CNN.com</a>
+  <a href="#" id="load-http">Load CNN.com</a>
+</body>
+
+</html>
